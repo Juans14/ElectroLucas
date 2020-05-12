@@ -340,3 +340,36 @@ hr {
     text-align: center;
   }
 }
+@media (max-width: 400px) {
+  .news-cards {
+    grid-template-columns: 1fr;
+  }
+  .showcase {
+    width: 100%;
+    height: 150px;
+    background: url("./img/BANNER\ BATERIAS.png") no-repeat center center/cover;
+    display: flexbox;
+    flex-direction: column-reverse;
+    align-items: right;
+    text-align: right;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: green;
+  }
+  .cards-banner-one{
+    background: url("./img/soat2.jpg") no-repeat center center/cover;
+  }
+  .cards-banner-one .content,
+  .cards-banner-two .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+  .footer-links .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links .footer-container ul {
+    text-align: center;
+  }
+}
